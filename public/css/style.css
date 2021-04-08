@@ -1,0 +1,167 @@
+body{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#newsletter{
+  background-color: purple;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+#newsletter img{
+  width: 50px;
+}
+
+.logo{
+  display: inline-block;
+}
+
+#champs_newsletter div{
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  margin-left: 400px;
+}
+
+button{
+  border-radius:5px;
+  background-color:green;
+  color: white;
+  border: none;
+  height:auto;
+  width: auto;
+  text-transform: uppercase;
+  padding: 5px;
+}
+
+button:hover{
+  background-color: greenyellow;
+}
+
+nav{
+  border-top: solid black 1px;
+  border-bottom: solid black 1px;
+  display: flex;
+}
+
+.menu{
+  display: flex;
+  position:relative; 
+}
+
+.menu>ul{
+  width: 700px;
+  height: auto;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo>img{
+  width: 50%;
+  height: auto;
+}
+
+.menu>ul::before{
+  content:"";
+  background-color: #191919;
+  height: 100%;
+  width:1px;
+  position: absolute;
+  margin-left: 600px;
+}
+
+.menu>ul::after{
+  content:"";
+  background-color: #191919;
+  height: 100%;
+  width:1px;
+  position: absolute;
+  margin-left: -130px;
+}
+
+.menu>ul>li:last-child{
+  margin-left:100px;
+}
+
+a{
+  text-decoration: none;
+  font-weight: bold;
+  color:black;
+  text-transform: uppercase;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+h1,h2{
+  font-weight:normal;
+}
+
+h1{
+  width: 20%;
+  margin:auto;
+  padding: 50px;
+  margin-bottom: 50px;
+  position:relative;
+}
+
+
+#contenu{
+  width: 60%;
+  margin:auto;
+  position:relative;
+}
+
+#contenu>h1::before{
+  content:"";
+  background-color: black;
+  width: 10%;
+  height: 1px;
+  position:absolute;
+  bottom:0;
+  left:40%;
+  margin:auto;
+} 
+
+#contenu>ul{
+  line-height: 30px;
+}
+
+#contenu>ul>li::before {
+  content: "•"; 
+  color: purple;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
+
+footer{
+  background-color:rgb(44,42,42) ;
+  width: 100%;
+  height: 300px;
+}
+
+#section{
+  display: flex;
+  justify-content: center;
+}
+
+#section>div{
+  margin:50px;
+}
+
+#section span{
+  color: white;
+}
+
+
+
+
+
+
+
+
