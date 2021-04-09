@@ -124,6 +124,7 @@ h1{
   width: 60%;
   margin:auto;
   position:relative;
+  text-align: justify;
 }
 
 #contenu>h1::before{
